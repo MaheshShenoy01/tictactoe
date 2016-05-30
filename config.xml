@@ -14,26 +14,22 @@
    </author>
    
    <preference name = "permissions" value = "none"/>
-   
-   <icon src = "res/icon/android/mipmap-hdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "hdpi" />
+   <platform name="android">
+   <icon src ="res/icon/android/mipmap-hdpi/ic_launcher.png" 
+      qualifier ="hdpi"/>
       
-   <icon src = "res/icon/android/mipmap-mdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "mdpi" />
+   <icon src ="res/icon/android/mipmap-mdpi/ic_launcher.png" 
+     qualifier ="mdpi"/>
       
-   <icon src = "res/icon/android/mipmap-xhdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "xhdpi" />
+   <icon src ="res/icon/android/mipmap-xhdpi/ic_launcher.png" 
+      qualifier ="xhdpi"/>
       
-   <icon src = "res/icon/android/mipmap-xxhdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "xxhdpi" />
+   <icon src ="res/icon/android/mipmap-xxhdpi/ic_launcher.png" 
+     qualifier ="xxhdpi"/>
 	  
-	   <icon src = "res/icon/android/mipmap-xxxhdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "xxhdpi" />
+	   <icon src ="res/icon/android/mipmap-xxxhdpi/ic_launcher.png" 
+      qualifier ="xxhdpi"/>
+   </platform>
    
-   <icon src = "res/icon/ios/Icon-72.png" gap:platform = "ios" gap:qualifier = ""/>
-   <icon src = "res/icon/ios/icon-57.png" gap:platform = "ios" width = "57" height = "57" />
-   <icon src = "res/icon/ios/icon-72.png" gap:platform = "ios" width = "72" height = "72" />
-   <icon src = "res/icon/ios/icon-57-2x.png" gap:platform = "ios" width = "114" height = "114" />
-   <icon src = "res/icon/ios/icon-72-2x.png" gap:platform = "ios" width = "144" height = "144" />
    
 </widget>
