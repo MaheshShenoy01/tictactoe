@@ -16,13 +16,10 @@
    <preference name = "permissions" value = "none"/>
    
    <icon src = "res/icon/android/mipmap-hdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "ldpi" />
+      gap:platform = "android" gap:qualifier = "hdpi" />
       
    <icon src = "res/icon/android/mipmap-mdpi/ic_launcher.png" 
       gap:platform = "android" gap:qualifier = "mdpi" />
-      
-   <icon src = "res/icon/android/mipmap-hdpi/ic_launcher.png" 
-      gap:platform = "android" gap:qualifier = "hdpi" />
       
    <icon src = "res/icon/android/mipmap-xhdpi/ic_launcher.png" 
       gap:platform = "android" gap:qualifier = "xhdpi" />
